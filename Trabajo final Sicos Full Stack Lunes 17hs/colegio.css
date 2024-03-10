@@ -1,0 +1,114 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-image: url(medical-background-aketl6830dizi9kn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-image:url("https://media.istockphoto.com/id/539018591/photo/harvard-moors-hall.jpg?s=612x612&w=0&k=20&c=gnKcGqWT2HGi34uPTOMWyr-0oc-Tcpq9-Cg5mHF82f0=");
+    /* background-position:center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encabezado {
+margin-left: 500px;
+text-align: center;
+width:600px ;
+background-color: blanchedalmond;
+border-radius: 15%;
+border-color: black;
+border: solid 2px;
+opacity: 0.8;
+
+}
+
+.formulario{
+padding:50px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+background-color: rgb(27, 210, 103);
+opacity: 0.8;
+margin-left: 75px;
+margin-right: 75px;
+margin-top: 50px;
+border-radius: 15%;
+border-color: black;
+border: solid 2px;
+}
+
+label {
+margin-top:10px;     
+font-size: xx-large;
+font-weight: 650;
+color:rgb(8, 6, 41)
+}
+
+input {
+font-size: x-large;
+}
+
+.fecha_turno {
+font-size: xx-large;
+}
+
+textarea {
+font-size: xx-large;    
+}
+
+select{
+font-size: x-large;
+}
+
+.input1 {
+height: 75px; 
+width: 300px;
+border-radius: 15%;
+border: solid 3px;
+font-size: x-large;
+font-weight: 700;
+color: white;
+background-color: rgb(60, 41, 230);
+margin-top:30px;
+margin-left:500px;
+}
+
+.footer{
+height: 100px;
+width: 800px;
+padding: 15px;
+background-color: rgb(60, 41, 230);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin-left: 500px;
+opacity: 0.8;
+border: solid 2px;
+border-radius: 20%;
+border-color: white;
+font-size: x-large;
+}
+
+.vinculo {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(76, 250, 1); /* Cambia el color del texto del enlace cuando se pasa el cursor por encima */
+    /* Puedes agregar otros estilos adicionales */
+  }
+
+.input1:hover {
+    color: rgb(207, 204, 8); /* Cambia el color del texto del enlace cuando se pasa el cursor por encima */
+    /* Puedes agregar otros estilos adicionales */
+  }
+

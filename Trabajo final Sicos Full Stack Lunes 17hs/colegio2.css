@@ -1,0 +1,70 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-image: url(medical-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.volver {
+    height: 80px; 
+    width: 170px;
+    margin-left: 600px;
+    margin-top:180px;
+    padding: 20px;
+    border-radius: 15%;
+    border: solid 3px;
+    font-size: x-large;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(60, 41, 230);
+    text-decoration: none;
+    display: flex;
+    text-align: start;
+    }
+
+    a:hover {
+        color: rgb(76, 250, 1); /* Cambia el color del texto del enlace cuando se pasa el cursor por encima */
+        /* Puedes agregar otros estilos adicionales */
+      }
+
+    .acciones {
+        height: 80px; 
+        width: 250px;
+        margin-left: 527px;
+        margin-top:50px;
+        padding-left: 35px;
+        border-radius: 15%;
+        border: solid 3px;
+        font-size: x-large;
+        font-weight: 700;
+        color: white;
+        background-color: rgb(60, 41, 230);
+        text-decoration: none;
+        display: flex;
+        text-align: start;
+    }
+
+    input {
+        font-size: x-large;
+        }
+
+        .acciones {
+        height: 80px; 
+        width: 250px;
+        margin-left: 527px;
+        margin-top:50px;
+        padding-left: 35px;
+        border-radius: 15%;
+        border: solid 3px;
+        font-size: x-large;
+        font-weight: 700;
+        color: white;
+        background-color: rgb(60, 41, 230);
+        text-decoration: none;
+        display: flex;
+        text-align: start;
+    }

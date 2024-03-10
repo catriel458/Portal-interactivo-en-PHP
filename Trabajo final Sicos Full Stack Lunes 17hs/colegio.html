@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Sicos</title>
+    <link rel="stylesheet" href="colegio.css">
+</head>
+
+<body>
+    <div class="encabezado">
+        <h1>Turno certificación exterior</h1>
+    </div>
+    <br>
+
+    <div class="contenedor1">
+        <form class="formulario" method="post" action="colegio.php">
+            <label for="nombre"> Nombre <input type="text" name="nombre" placeholder="ej:José" required
+                    pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" minlength="3" maxlength="50"></label>
+            <br>
+            <label for="apellido"> Apellido <input type="text" name="apellido" placeholder="ej:Vazquez" required
+                    pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" minlength="3" maxlength="50"></label>
+            <br>
+            <label for="dni"> DNI <input type="text" name="dni" placeholder="11111111 o LE11111111" required
+                    pattern="[A-Z0-9]+" minlength="8" maxlength="20"></label>
+            <br>
+            <label for="telefono"> Teléfono <input type="text" name="telefono" placeholder="ej: 21122222" required
+                    pattern="[0-9]+"></label>
+            <br>
+            <div style="display: flex;align-items: center;margin-left: 315px">
+                <label for="distritos"> Seleccione distrito </label>
+                <select style="margin-left: 10px;height:30px ;" name="distritos" id="distritos" required>
+
+                    <option value=""></option>
+                    <option value="distrito1">Distrito I</option>
+                    <option value="distrito2">Distrito II</option>
+                    <option value="distrito3">Distrito III</option>
+                    <option value="distrito4">Distrito IV</option>
+                    <option value="distrito5">Distrito V</option>
+                    <option value="distrito6">Distrito VI</option>
+                    <option value="distrito7">Distrito VII</option>
+                    <option value="distrito8">Distrito VIII</option>
+                    <option value="distrito9">Distrito IX</option>
+                    <option value="distrito10">Distrito X</option>
+                </select>
+            </div>
+            <br>
+            <label for="fecha"> Fecha turno <input class="fecha_turno" type="date" name="fecha" min="2023-01-01"
+                    max="2030-12-31" required></label>
+            <br>
+
+            <div style="display: flex;align-items: center;margin-left: 315px">
+                <label for="horario"> Seleccione horario </label>
+                <select style="margin-left: 10px;height:30px ;" name="horario" id="horario" required>
+
+                    <option value=""></option>
+                    <option value="h1">10:00</option>
+                    <option value="h2">10:30</option>
+                    <option value="h3">11:00</option>
+                    <option value="h4">11:30</option>
+                    <option value="h5">12:00</option>
+                    <option value="h6">12:30</option>
+                </select>
+            </div>
+            <br>
+
+            <div style="display: flex;align-items: center;margin-left: 315px">
+                <label for="tramite"> Seleccione trámite </label>
+                <select style="margin-left: 10px;height:30px ;" name="tramite" id="tramite" required>
+
+                    <option value=""></option>
+                    <option value="t1">Certicado médico</option>
+                    <option value="t2">Certicado de ética</option>
+                    <option value="t3">Certificado laboral</option>
+                    <option value="t4">Programa de residencia</option>
+                    <option value="t5">Certificado de credencial médico</option>
+                    <option value="t6">Título de especialista</option>
+                </select>
+            </div>
+            <br>
+
+            <div style="display: flex;align-items: center;margin-left: 315px">
+                <label for="profesion"> Seleccione profesión </label>
+                <select style="margin-left: 10px;height:30px ;" name="profesion" id="profesion" required>
+
+                    <option value=""></option>
+                    <option value="p1">Médico Argentino</option>
+                    <option value="p2">Médico Extranjero</option>
+                    <option value="p3">Particular</option>
+
+                </select>
+            </div>
+            <br>
+
+            <label for="obs">Observaciones</label>
+            <textarea style="resize: none;margin-top: 10px;" name="obs" cols="15" rows="3" required></textarea>
+            <br>
+            <input class="input1" type="submit" name="Enviar" value="Registrar turno">
+        </form>
+        <br>
+
+        <div class="footer">
+            <a class="vinculo" href="colegiobusqueda.html">Realizar consultas turnos</a>
+            <a class="vinculo" href="colegioeliminar.html">Dar de baja turno</a>
+            <a class="vinculo" href="colegiomodificar.html">Modificar datos turnos
+                <a class="vinculo" href="colegiopdf.php">Reportes</a>
+
+        </div>
+
+</body>
+
+</html>
